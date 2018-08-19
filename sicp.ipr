@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA">
+    <option name="configuration">
+      <map>
+        <entry key="checkstyle-version" value="8.11" />
+        <entry key="copy-libs" value="false" />
+        <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+        <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+        <entry key="scan-before-checkin" value="false" />
+        <entry key="scanscope" value="JavaOnly" />
+        <entry key="suppress-errors" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ClojureProjectResolveSettings">
+    <currentScheme>IDE</currentScheme>
+  </component>
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!dev-resources:*" />
+      <entry name="!resources:*" />
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="LeiningenProjectsManager">
+    <option name="projectFiles">
+      <list>
+        <option value="file://$PROJECT_DIR$/project.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sicp.iml" filepath="$PROJECT_DIR$/sicp.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_152" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Leiningen: clj-time:0.14.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-time/clj-time/0.14.2/clj-time-0.14.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: clj-tuple:0.2.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: clojure-complete:0.2.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/clojure-complete/clojure-complete/0.2.4/clojure-complete-0.2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: colorize:0.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/colorize/colorize/0.1.1/colorize-0.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: com.rpl/specter:1.0.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rpl/specter/1.0.5/specter-1.0.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: commons-codec:1.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: environ:1.1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/environ/environ/1.1.0/environ-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: fipp:0.6.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/fipp/fipp/0.6.10/fipp-0.6.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: flare:0.2.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/flare/flare/0.2.9/flare-0.2.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: io.aviso/pretty:0.1.34">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/aviso/pretty/0.1.34/pretty-0.1.34.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: joda-time:2.9.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: marick/suchwow:6.0.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/marick/suchwow/6.0.2/suchwow-6.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: midje:1.9.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/midje/midje/1.9.2/midje-1.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: mvxcvi/arrangement:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/arrangement/1.1.1/arrangement-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: mvxcvi/puget:1.0.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/puget/1.0.2/puget-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojars.brenton/google-diff-match-patch:0.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojars/brenton/google-diff-match-patch/0.1/google-diff-match-patch-0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/clojure:1.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/core.rrb-vector:0.0.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.rrb-vector/0.0.11/core.rrb-vector-0.0.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/core.specs.alpha:0.1.24">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/core.unify:0.5.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.unify/0.5.7/core.unify-0.5.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/math.combinatorics:0.1.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/spec.alpha:0.1.143">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/test.check:0.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/test.check/0.9.0/test.check-0.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/tools.macro:0.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/tools.namespace:0.2.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.clojure/tools.nrepl:0.2.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.nrepl/0.2.12/tools.nrepl-0.2.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: org.tcrawley/dynapath:1.0.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tcrawley/dynapath/1.0.0/dynapath-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: potemkin:0.4.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/potemkin/potemkin/0.4.4/potemkin-0.4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: riddley:0.1.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/riddley/riddley/0.1.12/riddley-0.1.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Leiningen: slingshot:0.12.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/slingshot/slingshot/0.12.2/slingshot-0.12.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
