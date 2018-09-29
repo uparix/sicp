@@ -41,9 +41,19 @@
       )
 
 (fact "sicp excercise 1.5"
-      (fact "observe model 1" (test-p 0 (p)) => (throws StackOverflowError) )
+      (fact "recursive call throws exception" (test-recur 0 (p)) => (throws StackOverflowError) )
       )
 
-(fact "sicp excercise 1.6"
-      (fact "" (new-if (= 2 3) 0 5) => 0)
+(fact "sicp excercise 1.7"
+      (fact "average 1" (average 2 0) => 1)
+      (fact "average 2" (average 3 0) => 3/2)
+      (fact "improve 1" (improve 1 1) => 1)
+      (fact "improve 2" (improve 1 2) => 3/2)
+      (fact "improve 3" (improve 1 3) => 2)
+      (fact "improve 4" (improve 3/2 2) => 17/12)
+      (fact "improve 5" (improve 17/12 2) => 577/408)
+      (fact "square 1" (square 1) => 1)
+      (fact "square 2" (square 2) => 4)
+      (fact "sqrt 1" (sqrt 4) => 2.000000000000002)
+      (fact "sqrt 2" (sqrt 16) => 4.000000000000051)
       )

@@ -10,6 +10,18 @@
 
 (defn p [] (p))
 
-(defn test-p [x y] (if (= x 0) 0 y))
+(defn test-recur [x y] (if (= x 0) 0 y))
 
-(defn (new-if [predi then-clause else-clause] (cond predi then-clause :else else-clause)))
+(defn abs [n] (max n (- n)))
+
+(defn average [x y] (/ (+ x y) 2))
+
+(defn improve [guess x] (average guess (/ x guess)))
+
+(defn square [x] (* x x))
+
+(defn good-enough? [guess x] (< (abs (- (square guess) x)) 0.0000001))
+
+(defn sqrt-iter [guess x] (if (good-enough? guess x) guess (sqrt-iter (improve guess x) x)))
+
+(defn sqrt [x] (sqrt-iter 1.0 x))
