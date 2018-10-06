@@ -1,20 +1,13 @@
-(ns sicp.code-breaker)
+(ns sicp.code_breaker)
 
-(defn break-code [past-guesses] [0 0 0 0])
-
-(defn count-true [bools]
-  (count (filter identity bools)))
-
-(defn position-matches [code guess]
-  (count-true
-    (map #(= %1 %2) code guess)))
-
-(defn value-matches [code guess]
-  (count-true
-    (map #(contains? (set code) %1) guess))
+(defn guess-to-number [guess]
+  (reduce #(+ (* 6 %1) %2) guess)
   )
 
-(defn score [code guess]
-  (let [p (position-matches code guess)
-        v (value-matches code guess)]
-    [p (- v p)]))
+(defn inc-guess [guess]
+  (let [guess-number (guess-to-number guess)])
+  )
+
+(defn break-code [past-guesses]
+  [0 0 0 0])
+

@@ -1,48 +1,33 @@
-(ns sicp.code-breaker-test
+(ns sicp.code_breaker_test
   (:require [clojure.test :refer :all]
-            [sicp.code-breaker :refer :all]
+            [sicp.code_breaker :refer :all]
+            [sicp.code_maker :as cm]
             [midje.sweet :refer :all]))
 
-(facts "Code Breaker"
-       fact "initial guess"
-       (break-code []) => [0 0 0 0])
-
-
 (facts
-  "code maker"
+  "Code Breaker"
   (fact
-    "score guess with no matches"
-    (score [0 0 0 0] [1 1 1 1]) => [0 0])
-
-  (fact
-    "score guess with one position match"
-    (score [0 0 0 0] [0 1 1 1 ]) => [1 0]
+    "guess-to-number"
+    (guess-to-number [0 0 0 0]) => 0
+    (guess-to-number [0 0 0 1]) => 1
+    (guess-to-number [0 0 1 0]) => 6
+    (guess-to-number [0 0 1 1]) => 7
+    (guess-to-number [0 1 1 1]) => 43
+    (guess-to-number [1 1 1 1]) => 259
+    (guess-to-number [5 5 5 5]) => (dec (* 6 6 6 6))
     )
 
+  (future-fact
+    "increment guess"
+    (inc-guess [0 0 0 0]) => [0 0 0 1])
+
   (fact
-    "score guess with two positions match"
-    (score [0 0 0 0] [0 1 1 0 ]) => [2 0]
-    (score [0 0 0 0] [1 0 1 0 ]) => [2 0]
-    (score [0 0 0 0] [0 1 0 1 ]) => [2 0]
+    "initial guess"
+    (break-code []) => [0 0 0 0])
+
+  (future-fact
+    "Walk through solution of code [1 2 3 4]"
+    (break-code [[[0 0 0 0] (cm/score [1 2 3 4] [0 0 0 0])]]) => [0 0 0 1]
     )
-
-  (fact
-    "guess with many position matches"
-    (score [1 1 1 1] [0 1 1 1]) => [3 0]
-    (score [0 0 0 0] [0 0 0 1]) => [3 0]
-    (score [1 2 3 4] [1 2 3 4]) => [4 0]
-    )
-
-  )
-
-(fact
-  "Scoring Value Matches."
-
-  (fact
-    "one value match"
-    (score [1 2 3 4] [2 0 0 0]) => [0 1])
-
-
-
 
   )
