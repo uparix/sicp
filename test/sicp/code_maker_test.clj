@@ -1,7 +1,7 @@
 (ns sicp.code-maker-test
-  (:require [clojure.test :refer :all]
+  (:require [midje.sweet :refer :all]
             [sicp.code-maker :refer :all]
-            [midje.sweet :refer :all]))
+            ))
 
 (facts
   "Code Maker"
