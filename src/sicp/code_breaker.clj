@@ -2,5 +2,10 @@
 
 (defn break-code [past-guesses] [0 0 0 0])
 
+(defn position-matches [code guess]
+  (count
+    (filter identity
+            (map #(= %1 %2) code guess))))
+
 (defn score [code guess]
-  [(reduce + map #(if (= (first %) (second %)) 1 0) (partition 2 (interleave code guess)))])
+  [(position-matches code guess) 0])
