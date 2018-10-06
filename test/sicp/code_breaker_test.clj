@@ -1,4 +1,4 @@
-(ns sicp.code_breaker_test
+(ns sicp.code-breaker-test
   (:require [clojure.test :refer :all]
             [sicp.code-breaker :refer :all]
             [sicp.code-maker :as cm]

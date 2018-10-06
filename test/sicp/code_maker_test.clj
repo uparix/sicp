@@ -1,4 +1,4 @@
-(ns sicp.code_maker_test
+(ns sicp.code-maker-test
   (:require [clojure.test :refer :all]
             [sicp.code-maker :refer :all]
             [midje.sweet :refer :all]))
