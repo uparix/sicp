@@ -30,6 +30,17 @@
       <entry name="!?*.clj" />
       <entry name="!?*.aj" />
     </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sicp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sicp" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
@@ -41,6 +52,13 @@
     <option name="projectFiles">
       <list>
         <option value="file://$PROJECT_DIR$/project.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -268,6 +286,314 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES />
+    </library>
+    <library name="Maven: clj-time:clj-time:0.14.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-time/clj-time/0.14.2/clj-time-0.14.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-time/clj-time/0.14.2/clj-time-0.14.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-time/clj-time/0.14.2/clj-time-0.14.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: clj-tuple:clj-tuple:0.2.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: colorize:colorize:0.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/colorize/colorize/0.1.1/colorize-0.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/colorize/colorize/0.1.1/colorize-0.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/colorize/colorize/0.1.1/colorize-0.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.rpl:specter:1.0.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rpl/specter/1.0.5/specter-1.0.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rpl/specter/1.0.5/specter-1.0.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rpl/specter/1.0.5/specter-1.0.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-codec:commons-codec:1.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: environ:environ:1.1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/environ/environ/1.1.0/environ-1.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/environ/environ/1.1.0/environ-1.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/environ/environ/1.1.0/environ-1.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: fipp:fipp:0.6.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/fipp/fipp/0.6.10/fipp-0.6.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/fipp/fipp/0.6.10/fipp-0.6.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/fipp/fipp/0.6.10/fipp-0.6.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: flare:flare:0.2.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/flare/flare/0.2.9/flare-0.2.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/flare/flare/0.2.9/flare-0.2.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/flare/flare/0.2.9/flare-0.2.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.aviso:pretty:0.1.34">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/aviso/pretty/0.1.34/pretty-0.1.34.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/aviso/pretty/0.1.34/pretty-0.1.34-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/aviso/pretty/0.1.34/pretty-0.1.34-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: joda-time:joda-time:2.9.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.7/joda-time-2.9.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.7/joda-time-2.9.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: marick:suchwow:6.0.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/marick/suchwow/6.0.2/suchwow-6.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/marick/suchwow/6.0.2/suchwow-6.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/marick/suchwow/6.0.2/suchwow-6.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: midje:midje:1.9.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/midje/midje/1.9.2/midje-1.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/midje/midje/1.9.2/midje-1.9.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/midje/midje/1.9.2/midje-1.9.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: mvxcvi:arrangement:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/arrangement/1.1.1/arrangement-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/arrangement/1.1.1/arrangement-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/arrangement/1.1.1/arrangement-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: mvxcvi:puget:1.0.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/puget/1.0.2/puget-1.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/puget/1.0.2/puget-1.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/mvxcvi/puget/1.0.2/puget-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojars.brenton:google-diff-match-patch:0.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojars/brenton/google-diff-match-patch/0.1/google-diff-match-patch-0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojars/brenton/google-diff-match-patch/0.1/google-diff-match-patch-0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojars/brenton/google-diff-match-patch/0.1/google-diff-match-patch-0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:clojure:1.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:core.rrb-vector:0.0.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.rrb-vector/0.0.11/core.rrb-vector-0.0.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.rrb-vector/0.0.11/core.rrb-vector-0.0.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.rrb-vector/0.0.11/core.rrb-vector-0.0.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:core.specs.alpha:0.1.24">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:core.unify:0.5.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.unify/0.5.7/core.unify-0.5.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.unify/0.5.7/core.unify-0.5.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/core.unify/0.5.7/core.unify-0.5.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:math.combinatorics:0.1.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/math.combinatorics/0.1.4/math.combinatorics-0.1.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:spec.alpha:0.1.143">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:test.check:0.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/test.check/0.9.0/test.check-0.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/test.check/0.9.0/test.check-0.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/test.check/0.9.0/test.check-0.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:tools.macro:0.1.5">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.macro/0.1.5/tools.macro-0.1.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.macro/0.1.5/tools.macro-0.1.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.clojure:tools.namespace:0.2.11">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.tcrawley:dynapath:1.0.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tcrawley/dynapath/1.0.0/dynapath-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tcrawley/dynapath/1.0.0/dynapath-1.0.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tcrawley/dynapath/1.0.0/dynapath-1.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: potemkin:potemkin:0.4.4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/potemkin/potemkin/0.4.4/potemkin-0.4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/potemkin/potemkin/0.4.4/potemkin-0.4.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/potemkin/potemkin/0.4.4/potemkin-0.4.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: riddley:riddley:0.1.12">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/riddley/riddley/0.1.12/riddley-0.1.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/riddley/riddley/0.1.12/riddley-0.1.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/riddley/riddley/0.1.12/riddley-0.1.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: slingshot:slingshot:0.12.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/slingshot/slingshot/0.12.2/slingshot-0.12.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/slingshot/slingshot/0.12.2/slingshot-0.12.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/slingshot/slingshot/0.12.2/slingshot-0.12.2-sources.jar!/" />
+      </SOURCES>
     </library>
   </component>
 </project>
