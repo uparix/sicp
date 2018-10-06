@@ -1,7 +1,7 @@
 (ns sicp.code_breaker_test
   (:require [clojure.test :refer :all]
-            [sicp.code_breaker :refer :all]
-            [sicp.code_maker :as cm]
+            [sicp.code-breaker :refer :all]
+            [sicp.code-maker :as cm]
             [midje.sweet :refer :all]))
 
 (facts

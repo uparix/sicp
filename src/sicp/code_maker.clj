@@ -1,4 +1,4 @@
-(ns sicp.code_maker)
+(ns sicp.code-maker)
 
 (defn count-true [bools]
   (count (filter identity bools)))

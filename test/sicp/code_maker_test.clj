@@ -1,6 +1,6 @@
 (ns sicp.code_maker_test
   (:require [clojure.test :refer :all]
-            [sicp.code-breaker :refer :all]
+            [sicp.code-maker :refer :all]
             [midje.sweet :refer :all]))
 
 (facts
@@ -11,14 +11,14 @@
 
   (fact
     "score guess with one position match"
-    (score [0 0 0 0] [0 1 1 1 ]) => [1 0]
+    (score [0 0 0 0] [0 1 1 1]) => [1 0]
     )
 
   (fact
     "score guess with two positions match"
-    (score [0 0 0 0] [0 1 1 0 ]) => [2 0]
-    (score [0 0 0 0] [1 0 1 0 ]) => [2 0]
-    (score [0 0 0 0] [0 1 0 1 ]) => [2 0]
+    (score [0 0 0 0] [0 1 1 0]) => [2 0]
+    (score [0 0 0 0] [1 0 1 0]) => [2 0]
+    (score [0 0 0 0] [0 1 0 1]) => [2 0]
     )
 
   (fact
@@ -27,7 +27,6 @@
     (score [0 0 0 0] [0 0 0 1]) => [3 0]
     (score [1 2 3 4] [1 2 3 4]) => [4 0]
     )
-
   )
 
 (facts

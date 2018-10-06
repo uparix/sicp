@@ -1,4 +1,4 @@
-(ns sicp.code_breaker)
+(ns sicp.code-breaker)
 
 (defn guess-to-number [guess]
   (reduce #(+ (* 6 %1) %2) guess)
