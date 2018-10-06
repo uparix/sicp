@@ -2,10 +2,19 @@
 
 (defn break-code [past-guesses] [0 0 0 0])
 
+(defn count-true [bools]
+  (count (filter identity bools)))
+
 (defn position-matches [code guess]
-  (count
-    (filter identity
-            (map #(= %1 %2) code guess))))
+  (count-true
+    (map #(= %1 %2) code guess)))
+
+(defn value-matches [code guess]
+  (count-true
+    (map #(contains? (set code) %1) guess))
+  )
 
 (defn score [code guess]
-  [(position-matches code guess) 0])
+  (let [p (position-matches code guess)
+        v (value-matches code guess)]
+    [p (- v p)]))
