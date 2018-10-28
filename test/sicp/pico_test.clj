@@ -74,6 +74,6 @@
  (facts
    "Pico Game"
    (fact "Get cards"
-        (first (cards)) => 2
+        (first (shuffle (cards))) => 2
          )
    )
